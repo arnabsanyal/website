@@ -113,18 +113,23 @@ publishDir = "docs"
 		
         [[params.hobbies.list]]		
 		hobby = "**Cooking**"
+        icon = "fas fa-utensils"
 		
         [[params.hobbies.list]]		
 		hobby = "**Adventures** - Hiking, Biking, Backpacking and Exploration"
+        icon = "fas fa-hiking"
 
         [[params.hobbies.list]]		
 		hobby = "**Sports** - Soccer, Badminton, Table Tennis, Volleyball, Swimming"
+        icon = "fas fa-volleyball-ball"
 
 	[[params.hobbies.list]]
 		hobby = "**Video Games** - Shooter, Extreme Combat, Survival Horror, Beat 'em up, Stealth"
+        icon = "fas fa-gamepad"
 
 	[[params.hobbies.list]]
 		hobby = "**Television** - Action, Adventure, Thriller, Mystery, Crime"
+        icon = "fa fa-tv"
 
 
     # Publication section
@@ -168,7 +173,7 @@ publishDir = "docs"
         description = "As a Graduate Research Assistant, I contribute to the [HAL research project](https://hal.usc.edu/). My work up to now has been focussed on exploring novel algorithmic solutions to achieve DeepLearning on hardware. Mostly I try to achieve training on DL accelerators with less amount of computations"
 		
         [[params.projects.list]]
-        title = "Hardware-Software co-design to accelerate Reversible Watermarking Algorithms"
+        title = "Hardware-Software co-design to accelerate Watermarking Algorithms"
         url = "#"
         dates = "Jul 2015 - Apr 2017"
         location = "Indian Institute of Technology, Kharagpur"
