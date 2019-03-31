@@ -1,0 +1,213 @@
+baseURL = "https://arnabsanyal.github.io/website/"
+# baseURL = "https://www.example.org/"
+languageCode = "en-us"
+theme = "aafu"
+publishDir = "docs"
+
+[params]
+    title = "Arnab Sanyal"
+    author = "Arnab Sanyal"
+    description = "Research Website"
+    copyright = "2019"
+    copyright_link = "#"
+
+    # Profile section
+    [params.profile]
+        name = "Arnab Sanyal"
+		tagline = "Graduate Research Assistant at The University of Southern California"
+		location = "Los Angeles, California"
+        photo = "profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "https://www.linkedin.com/in/arnabsanyal17/"
+        title = "LinkedIn"
+		
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-stack-overflow"
+        url = "https://stackoverflow.com/users/7517511/arnab-sanyal"
+        title = "StackOverflow"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/arnabsanyal"
+        title = "GitHub"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-facebook-f"
+        url = "https://www.facebook.com/lonewolf1898"
+        title = "Facebook"
+		
+	[[params.social.list]]
+        class = "ai"
+        icon = "ai-google-scholar"
+        url = "#"
+        title = "Google Scholar"
+		
+	[[params.social.list]]
+        class = "fab"
+        icon = "fa-medium-m"
+        url = "https://medium.com/@arnabsanyal_15738"
+        title = "Medium"	
+
+	[[params.social.list]]
+	class = "ai"
+	icon = "ai-cv"
+	url = "https://drive.google.com/open?id=1RMrdG27K67UBXrz6XmN4FziB4Aj9k5WD"
+	title = "Resume"
+	
+	[[params.social.list]]
+	class = "fas"
+	icon = "fa-envelope"
+	url = "mailto:arnab.sanyal@usc.edu"
+	title = "Electronic mail"
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Ph.D. in Electrical Engineering (Computer Engineering)"
+        college = "University of Southern California"
+        dates = "2017 - present"
+
+        [[params.education.list]]
+        degree = "M.S. in Computer Science"
+        college = "University of Southern California"
+        dates = "2017 - present"
+	      credits = "12/32"
+
+        [[params.education.list]]
+        degree = "M.S. in Electrical Engineering"
+        college = "University of Southern California"
+        dates = "2017 - present"
+	      credits = "18/28"
+
+	      [[params.education.list]]
+        degree = "M.Tech. in Instrumentation and Signal Processing Engineering"
+        college = "Indian Institute of Technology, Kharagpur"
+        dates = "2016 - 2017"
+        credits = "54"
+        gpa = "8.11/10"
+
+	      [[params.education.list]]
+        degree = "B.Tech. Electrical Engineering"
+        college = "Indian Institute of Technology, Kharagpur"
+        dates = "2012 - 2016"
+	      minor = "Electronics & Electrical Communications Engineering"
+	      micro = "Embedded Wireless Systems (GSSST - IIT Kharagpur)"
+        credits = "209"
+        gpa = "8.13/10"
+
+    # Hobbies section
+    [params.hobbies]
+        title = "Hobbies"
+		
+        [[params.hobbies.list]]		
+		hobby = "**Cooking**"
+		
+        [[params.hobbies.list]]		
+		hobby = "**Adventures** - Hiking, Biking, Backpacking and Exploration"
+
+        [[params.hobbies.list]]		
+		hobby = "**Sports** - Soccer, Badminton, Table Tennis, Volleyball, Swimming"
+
+	[[params.hobbies.list]]
+		hobby = "**Video Games** - Shooter, Extreme Combat, Survival Horror, Beat 'em up, Stealth"
+
+	[[params.hobbies.list]]
+		hobby = "**Television** - Action, Adventure, Thriller, Mystery, Crime"
+
+
+    # Publication section
+    [params.publication]
+        title = "Publications"
+
+        [[params.publication.list]]
+        title = "Fuzzy-LogNet: A Hardware Friendly Training Algorithm with Approximate Computations"
+        authors = "Arnab Sanyal, Keith M. Chugg, Peter A. Beerel"
+        date = "2019"
+        journal = "To Be Published"
+        link = "#"
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Sofware Engineering Intern - Linux Perf. Team"
+        dates = "May 2016 - Jul 2016"
+	link = "https://www.qualcomm.com/company/locations/india"
+        company = "Qualcomm India Private Ltd."
+
+        [[params.jobs.list]]
+        position = "Sofware Engineering Intern - Linux Kernel Team"
+        dates = "May 2015 - Jul 2015"
+	link = "https://www.qualcomm.com/company/locations/india"
+        company = "Qualcomm India Private Ltd."
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Accelerating Neural Network Training with Approximate Computations"
+        url = "#"
+        dates = "Jan 2018 - present"
+        location = "University of Southern California, Los Angeles"
+        description = "As a Graduate Research Assistant, I contribute to the [HAL research project](https://hal.usc.edu/). My work up to now has been focussed on exploring novel algorithmic solutions to achieve DeepLearning on hardware. Mostly I try to achieve training on DL accelerators with less amount of computations"
+		
+        [[params.projects.list]]
+        title = "Hardware-Software co-design to accelerate Reversible Watermarking Algorithms"
+        url = "#"
+        dates = "Jul 2015 - Apr 2017"
+        location = "Indian Institute of Technology, Kharagpur"
+        description = "My research focus at [SEAL](http://cse.iitkgp.ac.in/resgrp/seal/) was on optimizations, both at hardware and software level to accelerate Reversible Watermarking Algorithms"
+
+    # Skills section
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Python, C, Java, C++, MATLAB, Shell, AVR Assembly, HPC (OpenMP), LATEX"
+        skillrating = 90
+                
+        [[params.skills.list]]
+        skill = "R, GNU Octave, ARM Assembly, Android, Verilog, Cuda"
+        skillrating = 80
+		
+        [[params.skills.list]]
+        skill = "Scala, MIPS Assembly, HTML, CSS, PHP"
+        skillrating = 60
+
+    # Languages section
+    [params.languages]
+        icon = "fa-language"
+        title = "Languages"
+
+        [[params.languages.list]]
+        language = "English, Bengali"
+        languagerating = 95
+                
+        [[params.languages.list]]
+        language = "Hindi"
+        languagerating = 75
+    
+        [[params.languages.list]]
+        language = "Deutsch"
+        languagerating = 45
+
+        [[params.languages.list]]
+        language = "Italiano, Español"
+        languagerating = 20
