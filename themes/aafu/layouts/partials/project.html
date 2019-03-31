@@ -6,7 +6,7 @@
   <dl>
     {{ range.Site.Params.projects.list }}
     <dt>
-      <i class="fa fa-star"></i> <a class="text-primary" href="{{ .url }}"><code>{{ .title }}</code></a>
+      <a class="text-primary" href="{{ .url }}"> <i class="fas fa-star"></i> <code>{{ .title }}</code></a>
     </dt>
     <!-- <dd class="text-dark mb-0 ml-3"> <b> {{ .dates }} </b> &vert; <b> {{ .location }} </b> </dd> -->
     <dd class="text-dark mb-0 ml-3"> <b> {{ .dates }} &middot; {{ .location }} </b> </dd>

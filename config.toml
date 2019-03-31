@@ -216,3 +216,56 @@ publishDir = "docs"
         [[params.languages.list]]
         language = "Italiano, Español"
         languagerating = 20
+
+    # Teaching section
+    [params.teaching]
+        title = "Teaching"
+        
+        [[params.teaching.list]]     
+        subject = "EE30004: Embedded Systems"
+        sem = "Spr. 2016"
+        role = "Undergrad. Shadow Mentor"
+        loc = "IIT Kharagpur"
+
+        [[params.teaching.list]]     
+        subject = "EE11001: Electrical Technology Lab"
+        sem = "Fall 2016"
+        role = "Grad. Teaching Assistant"
+        loc = "IIT Kharagpur"
+
+        [[params.teaching.list]]     
+        subject = "EE11001: Electrical Technology Lab"
+        sem = "Spr. 2017"
+        role = "Grad. Teaching Assistant"
+        loc = "IIT Kharagpur"
+
+        [[params.teaching.list]]     
+        subject = "CSCI356: Intro. to Computer Systems"
+        sem = "Fall 2017"
+        role = "Grad. Teaching Assistant"
+        loc = "USC Los Angeles"
+
+        [[params.teaching.list]]     
+        subject = "EE599: Software Design & Optimization for Electrical Engineers"
+        sem = "Spr. 2018"
+        role = "Grad. Student Mentor"
+        loc = "USC Los Angeles"
+
+        [[params.teaching.list]]     
+        subject = "CSCI350: Intro. to Operating Systems"
+        sem = "Sum. 2018"
+        role = "Grad. Teaching Assistant"
+        loc = "USC Los Angeles"
+
+        [[params.teaching.list]]     
+        subject = "EE109L: Intro. to Embedded Systems"
+        sem = "Fall 2018"
+        role = "Grad. Teaching Assistant"
+        loc = "USC Los Angeles"
+
+        [[params.teaching.list]]     
+        subject = "EE599: Deep Learning"
+        sem = "Spr. 2019"
+        role = "Grad. Teaching Assistant"
+        loc = "USC Los Angeles"
+        
