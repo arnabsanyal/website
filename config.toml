@@ -16,7 +16,7 @@ publishDir = "docs"
         name = "Arnab Sanyal"
 		tagline = "Graduate Research Assistant at The University of Southern California"
 		location = "Los Angeles, California"
-        photo = "profile.jpg"
+        photo = "profile.jpeg"
 
     # Section for links to social websites
     [params.social]
