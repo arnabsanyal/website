@@ -123,13 +123,13 @@ publishDir = "docs"
 		hobby = "**Sports** - Soccer, Badminton, Table Tennis, Volleyball, Swimming"
         icon = "fas fa-volleyball-ball"
 
-	[[params.hobbies.list]]
-		hobby = "**Video Games** - Shooter, Extreme Combat, Survival Horror, Beat 'em up, Stealth"
-        icon = "fas fa-gamepad"
-
-	[[params.hobbies.list]]
+	    [[params.hobbies.list]]
 		hobby = "**Television** - Action, Adventure, Thriller, Mystery, Crime"
         icon = "fa fa-tv"
+
+        [[params.hobbies.list]]
+        hobby = "**Video Games**"
+        icon = "fas fa-gamepad"
 
 
     # Publication section
@@ -149,15 +149,21 @@ publishDir = "docs"
         title = "Experience"
 
         [[params.jobs.list]]
+        position = "Graduate Research Assistant - Dept. of Electrical Engineering"
+        dates = "Aug 2017 - present"
+        link = "http://graduateschool.usc.edu/"
+        company = "Graduate School, U.S.C."
+
+        [[params.jobs.list]]
         position = "Sofware Engineering Intern - Linux Perf. Team"
         dates = "May 2016 - Jul 2016"
-	link = "https://www.qualcomm.com/company/locations/india"
+	    link = "https://www.qualcomm.com/company/locations/india"
         company = "Qualcomm India Private Ltd."
 
         [[params.jobs.list]]
         position = "Sofware Engineering Intern - Linux Kernel Team"
         dates = "May 2015 - Jul 2015"
-	link = "https://www.qualcomm.com/company/locations/india"
+	    link = "https://www.qualcomm.com/company/locations/india"
         company = "Qualcomm India Private Ltd."
 
     # Projects section
