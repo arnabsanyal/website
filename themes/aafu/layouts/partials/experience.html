@@ -8,7 +8,7 @@
   <dl>
     <dt class="text-dark mb-0">
       {{ if .link }} <a class="text-primary" href="{{ .link }}"> <i class="far fa-clipboard"></i> {{ .company }}</a
-      >{{ else }} <i class="fas fa-briefcase"></i> {{ .company }} {{ end }}
+      >{{ else }} <i class="far fa-clipboard"></i> {{ .company }} {{ end }}
     </dt>
     <dd class="text-dark ml-3">{{ .dates | markdownify }} &middot; {{ .position }}</dd>
     <dd class="text-dark mb-0 ml-3">{{ .details | markdownify }}</dd>

@@ -5,7 +5,10 @@
 <div class="panel overflow-hidden">
   {{ range.Site.Params.education.list }}
   <dl>
-    <dt class="text-dark"> <i class="fas fa-university"></i> {{ .degree }}</dt>
+    <dt class="text-dark">
+      {{ if .link }} <a class="text-primary" href="{{ .link }}"> <i class="fas fa-university"></i> {{ .degree }}</a>
+      {{ else }} <i class="fas fa-university"></i> {{ .degree }} {{ end }}
+   </dt>
     <dd class="text-dark mb-0 ml-3"> <b> {{ .dates }} </b> &middot; {{ .college }}</dd>
 
     {{ if .credits }}
