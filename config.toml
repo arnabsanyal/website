@@ -140,11 +140,11 @@ publishDir = "docs"
         title = "Publications"
 
         [[params.publication.list]]
-        title = "LA-Net: Neural Network Training with Logarithmic Approximate Computations"
-        authors = "Arnab Sanyal, Keith M. Chugg, Peter A. Beerel"
+        title = "Neural Network Training with Approximate Logarithmic Computations"
+        authors = "Arnab Sanyal, Peter A. Beerel, Keith M. Chugg"
         date = "2019"
-        journal = "To Be Published"
-        link = "#"
+        journal = "Under review at International Conference on Acoustics, Speech, and Signal Processing, 2020"
+        link = "https://arxiv.org/abs/1910.09876"
 
     # Experiences section
     [params.experiences]
