@@ -49,7 +49,7 @@ publishDir = "docs"
 	[[params.social.list]]
         class = "ai"
         icon = "ai-google-scholar"
-        url = "#"
+        url = "https://scholar.google.com/citations?user=vUC7-ygAAAAJ"
         title = "Google Scholar"
 		
 	[[params.social.list]]
@@ -143,7 +143,7 @@ publishDir = "docs"
         title = "Neural Network Training with Approximate Logarithmic Computations"
         authors = "**Arnab Sanyal**, Peter A. Beerel, Keith M. Chugg"
         date = "2019"
-        journal = "Under review"
+        journal = " Under review"
         link = "https://arxiv.org/abs/1910.09876"
 
     # Experiences section
