@@ -141,9 +141,9 @@ publishDir = "docs"
 
         [[params.publication.list]]
         title = "Neural Network Training with Approximate Logarithmic Computations"
-        authors = "Arnab Sanyal, Peter A. Beerel, Keith M. Chugg"
+        authors = "**Arnab Sanyal**, Peter A. Beerel, Keith M. Chugg"
         date = "2019"
-        journal = "Under review at International Conference on Acoustics, Speech, and Signal Processing, 2020"
+        journal = "Under review"
         link = "https://arxiv.org/abs/1910.09876"
 
     # Experiences section
