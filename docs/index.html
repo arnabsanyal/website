@@ -362,16 +362,62 @@
   
 </div>
 
-    <h2 class="accordion w-100 text-primary">
+    <style>
+span.pointer {
+    cursor: pointer;
+}
+ 
+.modal {
+    display: none;  
+    position: fixed;  
+    z-index: 1;  
+    padding-top: 100px;  
+    left: 0;
+    top: 0;
+    width: 100%;  
+    height: 100%;  
+    overflow: auto;  
+    background-color: rgb(0,0,0);  
+    background-color: rgba(0,0,0,0.4);  
+}
+
+ 
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+ 
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+<h2 class="accordion w-100 text-primary">
   <i class="fa fa-book" aria-hidden="true"></i>
   Publications
 </h2>
+
 <div class="panel overflow-hidden">
   
   <p class="text-dark">
     <i class="far fa-newspaper"></i> 2019 &middot; <strong>Arnab Sanyal</strong>, Peter A. Beerel, Keith M. Chugg &middot;
     <a class="text-primary" href="#"><i>"Neural Network Training with Approximate Logarithmic Computations"</i></a> 
-     in IEEE International Conference on Acoustics, Speech, and Signal Processing 2020 &middot; 
+     in IEEE International Conference on Acoustics, Speech, and Signal Processing - 
+    <span id="myBtn" class="pointer" style="font-weight:bold"><span class="text-primary">ICASSP 2020</span></span> &middot; 
     <a href="./bib/Sanyal_neural2019.bib"><i class="text-primary zoomlink fa fa-quote-right fa-lg" aria-hidden="true"></i></a>
     <a href="./pdf/Sanyal_neural2019.pdf"><i class="text-primary zoomlink fa fa-file-pdf fa-lg" aria-hidden="true"></i></a>
     <a href="https://arxiv.org/abs/1910.09876"><i class="text-primary zoomlink ai ai-arxiv ai-lg" aria-hidden="true"></i></a>
@@ -381,6 +427,55 @@
   
 </div>
 
+
+<div id="myModal" class="modal">
+
+  
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4 class="text-dark">
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <span style="font-weight:bold">About IEEE ICASSP</span>
+    </h4>
+    <p>
+    <i class="fa fa-chart-bar fa-rotate-90" aria-hidden="true"></i> Google h5-index (2014-2018) - 80</br>
+    <i class="fa fa-chart-bar fa-rotate-90" aria-hidden="true"></i> Google h5-median (2014-2018) - 140</br>
+    <i class="fa fa-chart-bar fa-rotate-90" aria-hidden="true"></i> #1 (overall) in <span style="font-weight:bold"><a href="">Acoustics &amp; Sound</a></span>.</br>
+    <i class="fa fa-chart-bar fa-rotate-90" aria-hidden="true"></i> #4 (overall) and #1 (conferences only) in <span style="font-weight:bold"><a href="">Signal Processing</a></span>.</br>
+    <i class="fa fa-chart-bar fa-rotate-90" aria-hidden="true"></i> World’s largest and most comprehensive technical conference focused on signal processing and its applications.</br>
+    <i class="fa fa-chart-bar fa-rotate-90" aria-hidden="true"></i> IEEE ICASSP 2020 is happening in <a href="https://goo.gl/maps/KL5aYvwPKK7JKTiw8">Barcelona, Spain</a>.
+    </p>
+  </div>
+
+</div>
+
+<script>
+
+var modal = document.getElementById("myModal");
+
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
     <h2 class="accordion w-100 text-primary">
   <i class="fas fa-project-diagram"></i>
   Projects
