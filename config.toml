@@ -85,6 +85,7 @@ publishDir = "docs"
         college = "University of Southern California"
         dates = "2017 - present"
 	    credits = "24/28"
+        p1 = "**Fully funded by Ming Hsieh Department of ECE graduate assistantship**"
 
         [[params.education.list]]
         degree = "M.S. in Electrical & Computer Engineering"
@@ -175,7 +176,7 @@ publishDir = "docs"
 
         [[params.jobs.list]]
         position = "**Graduate Research Assistant** - Dept. of Electrical & Computer Engg."
-        dates = "Aug 2017 - present"
+        dates = "May 2018 - present"
         link = "http://graduateschool.usc.edu/"
         company = "Graduate School, U.S.C."
         p1 = "Worked at [Hardware Accelerated Learning](https://hal.usc.edu/) group"
@@ -190,11 +191,28 @@ publishDir = "docs"
         p1 = "Teaching Assistant for 8 courses over 8 semesters"
 
         [[params.jobs.list]]
+        position = "**Graduate Research Assistant** - Dept. of Electrical & Computer Engg."
+        dates = "Aug 2017 - May 2018"
+        link = "http://graduateschool.usc.edu/"
+        company = "Graduate School, U.S.C."
+        p1 = "Worked in [Project SHARP](https://sites.usc.edu/projectsharp/)"
+        p2 = "Worked on graph theory problems like PageRank, NxContingency, graph embedding and belief propagation" 
+
+        [[params.jobs.list]]
         position = "**Teaching Assistant** - Dept. of Electrical Engineering"
         dates = "Jan 2016 - Apr 2017"
         link = "http://www.ee.iitkgp.ac.in/"
         company = "Indian Institute of Technology, Kharagpur"
         p1 = "Teaching Assistant for 3 courses during a period of 3 semesters"
+
+        [[params.jobs.list]]
+        position = "**Undergraduate Research Assistant** - Dept. of Computer Science"
+        dates = "Jul 2015 - Apr 2017"
+        link = "http://cse.iitkgp.ac.in/"
+        company = "Indian Institute of Technology, Kharagpur"
+        p1 = "Researched at [Secured Embedded Architecture Laboratory](http://cse.iitkgp.ac.in/resgrp/seal/)"
+        p2 = "Software Acceleration of novel Reversible Watermarking Algorithms"
+        p3 = "Accelerator architecture design on FPGA"
 
         [[params.jobs.list]]
         position = "**Sofware Engineering Intern** - Linux Perf. Team"
